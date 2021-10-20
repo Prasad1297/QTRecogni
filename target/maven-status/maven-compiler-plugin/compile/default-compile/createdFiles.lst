@@ -1,0 +1,6 @@
+PageObjects\activityPage.class
+PageObjects\LoginPage.class
+resources\base.class
+PageObjects\SendKudosPage.class
+PageObjects\KudosSearchPage.class
+Academy\Assignment\App.class

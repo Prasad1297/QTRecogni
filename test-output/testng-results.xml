@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19811" started-at="2021-10-21T03:01:40 IST" finished-at="2021-10-21T03:02:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19811" started-at="2021-10-21T03:01:40 IST" finished-at="2021-10-21T03:02:00 IST">
+      <class name="Academy.Assignment.SendKudos">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.SendKudos@1d8d30f7]" name="initialize" is-config="true" duration-ms="2950" started-at="2021-10-21T03:01:40 IST" finished-at="2021-10-21T03:01:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="sendKudos(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Academy.Assignment.SendKudos@1d8d30f7]" name="sendKudos" duration-ms="16462" started-at="2021-10-21T03:01:43 IST" data-provider="getData" finished-at="2021-10-21T03:02:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.bembde@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Harshini M Iyli  (harshini.iyli@qualitestgroup.com)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Quick Learner]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Quality Hero]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKudos -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.SendKudos@1d8d30f7]" name="teardown" is-config="true" duration-ms="294" started-at="2021-10-21T03:02:00 IST" finished-at="2021-10-21T03:02:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.SendKudos -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

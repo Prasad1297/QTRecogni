@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76794" started-at="2021-10-20T21:38:36Z" finished-at="2021-10-20T21:39:53Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="20237" started-at="2021-10-20T21:38:36Z" finished-at="2021-10-20T21:38:56Z">
+      <class name="Academy.Assignment.Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.Login@17695df3]" name="initialize" is-config="true" duration-ms="2763" started-at="2021-10-21T03:08:36Z" finished-at="2021-10-21T03:08:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="userLogin(java.lang.String, java.lang.String)[pri:0, instance:Academy.Assignment.Login@17695df3]" name="userLogin" duration-ms="17309" started-at="2021-10-21T03:08:39Z" data-provider="getData" finished-at="2021-10-21T03:08:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.bembde@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.Login@17695df3]" name="teardown" is-config="true" duration-ms="144" started-at="2021-10-21T03:08:56Z" finished-at="2021-10-21T03:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.Login -->
+    </test> <!-- Test -->
+    <test name="Searching Kudos" duration-ms="12750" started-at="2021-10-20T21:38:56Z" finished-at="2021-10-20T21:39:09Z">
+      <class name="Academy.Assignment.KudosSearch">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.KudosSearch@799d4f69]" name="initialize" is-config="true" duration-ms="2052" started-at="2021-10-21T03:08:56Z" finished-at="2021-10-21T03:08:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="kudosSearch()[pri:0, instance:Academy.Assignment.KudosSearch@799d4f69]" name="kudosSearch" duration-ms="10590" started-at="2021-10-21T03:08:58Z" finished-at="2021-10-21T03:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kudosSearch -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.KudosSearch@799d4f69]" name="teardown" is-config="true" duration-ms="107" started-at="2021-10-21T03:09:09Z" finished-at="2021-10-21T03:09:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.KudosSearch -->
+    </test> <!-- Searching Kudos -->
+    <test name="AppTest" duration-ms="0" started-at="2021-10-20T21:39:09Z" finished-at="2021-10-20T21:39:09Z">
+    </test> <!-- AppTest -->
+    <test name="Activity" duration-ms="12519" started-at="2021-10-20T21:39:09Z" finished-at="2021-10-20T21:39:22Z">
+      <class name="Academy.Assignment.Activity">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.Activity@11e21d0e]" name="initialize" is-config="true" duration-ms="5263" started-at="2021-10-21T03:09:09Z" finished-at="2021-10-21T03:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="ActivityPage(java.lang.String, java.lang.String)[pri:0, instance:Academy.Assignment.Activity@11e21d0e]" name="ActivityPage" duration-ms="7150" started-at="2021-10-21T03:09:14Z" data-provider="getData" finished-at="2021-10-21T03:09:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.bembde@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ActivityPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.Activity@11e21d0e]" name="teardown" is-config="true" duration-ms="106" started-at="2021-10-21T03:09:21Z" finished-at="2021-10-21T03:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.Activity -->
+    </test> <!-- Activity -->
+    <test name="Recent Kudos Search" duration-ms="12637" started-at="2021-10-20T21:39:22Z" finished-at="2021-10-20T21:39:34Z">
+      <class name="Academy.Assignment.KudosRecent">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.KudosRecent@120d6fe6]" name="initialize" is-config="true" duration-ms="2104" started-at="2021-10-21T03:09:22Z" finished-at="2021-10-21T03:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="kudosRecent(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Assignment.KudosRecent@120d6fe6]" name="kudosRecent" duration-ms="10235" started-at="2021-10-21T03:09:24Z" data-provider="getData" finished-at="2021-10-21T03:09:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.bembde@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Good Work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kudosRecent -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.KudosRecent@120d6fe6]" name="teardown" is-config="true" duration-ms="297" started-at="2021-10-21T03:09:34Z" finished-at="2021-10-21T03:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.KudosRecent -->
+    </test> <!-- Recent Kudos Search -->
+    <test name="Send Kudos" duration-ms="18567" started-at="2021-10-20T21:39:34Z" finished-at="2021-10-20T21:39:53Z">
+      <class name="Academy.Assignment.SendKudos">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:Academy.Assignment.SendKudos@21a947fe]" name="initialize" is-config="true" duration-ms="2364" started-at="2021-10-21T03:09:34Z" finished-at="2021-10-21T03:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="sendKudos(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Academy.Assignment.SendKudos@21a947fe]" name="sendKudos" duration-ms="16032" started-at="2021-10-21T03:09:37Z" data-provider="getData" finished-at="2021-10-21T03:09:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prasad.bembde@qualitestgroup.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[P@ssw0rd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Harshini M Iyli  (harshini.iyli@qualitestgroup.com)]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Quick Learner]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Quality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendKudos -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Assignment.SendKudos@21a947fe]" name="teardown" is-config="true" duration-ms="170" started-at="2021-10-21T03:09:53Z" finished-at="2021-10-21T03:09:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Assignment.SendKudos -->
+    </test> <!-- Send Kudos -->
+  </suite> <!-- Suite -->
+</testng-results>
