@@ -52,10 +52,10 @@ public class SendKudos extends base {
 		 */
 
 		// Clicking on the appreciation message
-		List<WebElement> li3 =driver.findElements(By.xpath("//*[@id='trophy_list']/div"));
-		for(WebElement list: li3) {
-			if(list.getText().contains(trophyName)) {
-				list.click();
+		List<WebElement> list =driver.findElements(By.xpath("//*[@id='trophy_list']/div"));
+		for(WebElement list1: list) {
+			if(list1.getText().contains(trophyName)) {
+				list1.click();
 				System.out.println("quick learner selected");
 				break;
 			}
